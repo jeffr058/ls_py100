@@ -1,0 +1,28 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and virtual environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Local configuration files that might contain sensitive information
+config.ini
+secrets.py
+credentials.json
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

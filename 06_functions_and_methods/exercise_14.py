@@ -15,9 +15,9 @@
 2   left, right
 3   
 4   get_num, prompt
-5   prompt
+5   prompt, (corrections) float, input
 6   
 7   first_number, get_num
 8   second_number, get_num
 9   product, multiply, first_number, second_number
-10  first_number, second_number, product
+10  first_number, second_number, product, (correction) print

@@ -2,10 +2,10 @@
 
 # Name
 index           # idiomatic
-CatName         # non-idiomatic
+CatName         # non-idiomatic (shouldn't be CamelCase)
 lazy_dog        # idiomatic
-quick_Fox       # non-idiomatic
-1stCharacter    # illegal
+quick_Fox       # non-idiomatic (should be all lowercase)
+1stCharacter    # illegal (can't start with a number)
 operand2        # idiomatic
-BIG_NUMBER      # non-idiomatic
-π               # non-idiomatic
+BIG_NUMBER      # non-idiomatic (should be all lowercase)
+π               # non-idiomatic (non-ASCII character)

@@ -4,6 +4,6 @@
 # What is your name? Sue
 # Hello, Sue!
 
-NAME = input('What is your name? ')
+name = input('What is your name? ')
 
-print(f'Hello, {NAME}!')
+print(f'Hello, {name}!')

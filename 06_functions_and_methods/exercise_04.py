@@ -11,9 +11,9 @@
 # Item
 function name           # multiply_numbers
 function arguments      # 2, 3, 4
-function definition     # def
+function definition     # (correction) everything on lines 1-3 
 function body           # Lines 2 & 3
-function parameters     # num1, num2, num3
-function invocation     # Line 5
-function return value   # Line 3
-all identifiers         # multiply_numbers, result, product
+function parameters     # num1, num2, num3 (on Line 1)
+function invocation     # Line 5 -> multipl_numbers(2, 3, 4)
+function return value   # Line 3 (24)
+all identifiers         # multiply_numbers, result, product (correction) num1, num2, num3

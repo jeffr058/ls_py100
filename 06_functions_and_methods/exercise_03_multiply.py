@@ -6,11 +6,10 @@
 # 3.1416 * 2.7183 = 8.53981128
 
 def multiply(num1, num2):
-    result = num1 * num2
-    return result
+    return num1 * num2
  
 def get_num(prompt):
-    num = input(prompt)
+    num = input(prompt) # variable name can be more descriptive
     return float(num)
     
 input_num1 = get_num('Enter the first number: ')

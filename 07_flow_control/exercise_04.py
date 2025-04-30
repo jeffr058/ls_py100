@@ -3,6 +3,6 @@
 # return ('bar' if foo() else qux())
 
 if foo():
-    'bar'
+    return 'bar'  # corrected after reviewing solution
 else:
-    qux()
+    return qux()  # corrected after reviewing solution

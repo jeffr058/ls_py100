@@ -9,3 +9,4 @@ Similarities:
 1. They are both sequences.
 2. The order objects are added is preserved 
 3. Each object is indexed with a specific position.
+4. They are both heterogeneous.  # based on solution

@@ -2,7 +2,7 @@
 
 stuff = ('hello', 'world', 'bye', 'now')
 
-stuff_1 = list(stuff)
+stuff_1 = list(stuff)  # can use original name for list & new tuple
 stuff_1[2] = 'goodbye'
 stuff_1 = tuple(stuff_1)
 

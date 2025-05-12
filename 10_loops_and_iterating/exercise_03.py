@@ -14,7 +14,8 @@ my_list = [6, 3, 0, 11, 20, 4, 17]
 #while loop
 i = 0
 while i < len(my_list):
-    print(my_list[i])
+    number = my_list[i]
+    print(number)
     i += 1
 
 print()

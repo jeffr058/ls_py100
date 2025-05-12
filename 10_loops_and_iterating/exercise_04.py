@@ -16,9 +16,9 @@ my_list = [6, 3, 0, 11, 20, 4, 17]
 # while loop
 index = 0
 while index < len(my_list):
-    if my_list[index] % 2 == 0:
-        even_num = my_list[index]
-        print(even_num)
+    number = my_list[index]
+    if number % 2 == 0:
+        print(number)
     index += 1
 
 print()

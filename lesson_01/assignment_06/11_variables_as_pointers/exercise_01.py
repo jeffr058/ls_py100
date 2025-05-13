@@ -5,4 +5,4 @@
 
 The first expression checks for whether the values of my_object1 and my_object2 are equal.
     
-The second expression checks if the objects in both are the same objects.
+The second expression checks if the objects in both point to the same objects in memory.

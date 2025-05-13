@@ -20,11 +20,9 @@
 # print(factorial(25))  # 15511210043330985984000000
 
 def factorial(input_num):
-    num = 1
     result = 1
-    while num <= input_num:
+    for num in range(1, input_num + 1):
         result *= num
-        num += 1
     return result
 
-print(factorial(25))
+print(factorial(8))

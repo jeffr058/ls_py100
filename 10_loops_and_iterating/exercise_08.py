@@ -8,5 +8,7 @@ my_set = {
     'Cocoa',
 }
 
-my_dict = { obj: len(obj) for obj in my_set }
+my_dict = { obj: len(obj) 
+           for obj in my_set
+           if len(obj) % 2 != 0 }
 print(my_dict)

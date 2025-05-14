@@ -6,7 +6,8 @@ counter = 0
 def increment_counter():
     global counter
     counter += 1
-    return counter
+    # return counter          # remove as the function shouldn't have a side
+                              # effect AND a return value
 # end of my solution
 
 print(counter)                # 0

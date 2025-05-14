@@ -14,4 +14,4 @@
 
 # print(do_something(my_dict))
 
-The keys method creates a view object of the dictionary keys. The sorted function passes the view object and creates a new list of the keys and sorts it (alphabetically). It then returns the value at the index 1 position in uppercase letters. The output will be 'CLARE'.
+The keys method creates a view object of the dictionary keys. The sorted function passes the view object and creates a new list of the keys and sorts it (alphabetically). It then returns the value at the index 1 position in uppercase letters. The output will be 'CHRIS'.

@@ -10,4 +10,4 @@ if current_speed > speed_limit:                         # was missing :
     
 # What does a SyntaxError indicate? Try running the above code, then use the resulting error message to fix the error.
 
-# It indicates that the interpreter doesn't understand the input (you are not speaking its language).  
+It indicates that the interpreter doesn't understand the input (you are not speaking its language).  

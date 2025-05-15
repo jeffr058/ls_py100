@@ -6,7 +6,7 @@ def compare_by_length(str1, str2):
         return -1
     elif len(str1) > len(str2):
         return 1
-    elif len(str1) == len(str2):
+    else:                           # revised from elif len(str1) == len(str2)
         return 0
     
 print(compare_by_length('patience', 'perseverance'))

@@ -6,7 +6,7 @@ import random
 random_number = random.randint(0, 1)
 
 # My solution
-if random_number == 1:
+if random_number:   # removed == 1 to leverage truthiness concept
     print('Yes!')
-elif random_number == 0:  # LS solution just uses else
+else:               # changed from elif random_number == 0
     print('No.')

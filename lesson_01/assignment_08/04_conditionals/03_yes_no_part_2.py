@@ -4,4 +4,4 @@ import random
 random_number = random.randint(0, 1)
 
 # My solution
-print('Yes!') if random_number else print('No.')
+print('Yes!' if random_number else 'No.')  # enclosed entire expression in ()

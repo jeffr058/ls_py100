@@ -2,7 +2,7 @@
 
 # My solution
 def squared_number(num):
-    return num ** 2
+    return num**2  # removed whitespace between operand and operator
 
 print(squared_number(3))
 # End of my solution

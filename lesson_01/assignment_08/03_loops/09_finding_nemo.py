@@ -3,7 +3,6 @@
 fish_list = ['Dory', 'Marlin', 'Gill', 'Nemo', 'Bruce']
 
 for fish in fish_list:
-    if fish is 'Nemo':
-        print(fish)
-        break
-    print(fish)
+    print(fish)         # moved to top of block to satisfy "logging each" req
+    if fish == 'Nemo':  # changed from is to ==
+        break           # removed print(fish) preceding this line

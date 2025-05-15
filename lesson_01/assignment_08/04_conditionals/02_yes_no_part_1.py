@@ -8,5 +8,5 @@ random_number = random.randint(0, 1)
 # My solution
 if random_number == 1:
     print('Yes!')
-elif random_number == 0:
+elif random_number == 0:  # LS solution just uses else
     print('No.')

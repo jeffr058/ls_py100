@@ -7,7 +7,6 @@ cities = ['Istanbul', 'Los Angeles', 'Tokyo', None,
 
 # My solution
 for city in cities:
-    if city == None:
+    if city is None:        # changed from == to is
         continue
-    else:
-        print(len(city))
+    print(len(city))        # removed else statement

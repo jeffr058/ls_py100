@@ -5,6 +5,8 @@ import re
 def extract_region(locale):    
     separators = r'[_.]'
     return re.split(separators, locale)[1]  # can also do return locale[3:5]
+    # third way per LS solution
+    # return locale.split('_')[1].split('.')[0]
 # end of my solution
 
 print(extract_region('en_US.UTF-8'))    # US

@@ -1,34 +1,43 @@
 # Building on your solutions from the previous exercises, write a function local_greet that takes a locale as input, and returns a greeting. The locale lets us greet people from different countries appropriately, even when they share a common language, for example:
 
 # my solution
-def local_greet(locale):
-    def extract_language(locale):
-        return locale.split('_')[0]
-    
-    def extract_region(locale):
-        return locale.split('_')[1].split('.')[0]
-    
-    my_tuple = (extract_language(locale), extract_region(locale))
+def greet(lang_code):
+    match lang_code:
+        case 'en':
+         return 'Hi!'
+        case 'fr':
+            return 'Salut!'
+        case 'pt':
+            return 'Olá!'
+        case 'de':
+            return 'Hallo!'
+        case 'sv':
+            return 'Hej!'
+        case 'af':
+            return 'Haai!'
+        case _:
+            return 'Goodbye!'
 
-    match my_tuple:
+def extract_language(locale):    
+    return locale.split('_')[0]
+
+def extract_region(locale):
+    return locale.split('_')[1].split('.')[0]
+
+def local_greet(locale):
+    language = extract_language(locale)
+    region = extract_region(locale)
+
+    match (language, region):
         case ('en', 'US'):
             return 'Hi!'
         case ('en', 'GB'):
             return 'Hello!'
         case ('en', 'AU'):
             return 'Howdy!'
-        case ('fr', _):
-            return 'Salut!'
-        case ('pt', _):
-            return 'Olá!'
-        case ('de', _):
-            return 'Hallo!'
-        case ('sv', _):
-            return 'Hej!'
-        case ('af', _):
-            return 'Haai!'
         case _:
-            return 'Goodbye!'
+            return greet(language)
+
 # end of my solution
 
 print(local_greet('en_US.UTF-8'))       # Hey!

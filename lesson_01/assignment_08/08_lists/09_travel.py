@@ -10,11 +10,10 @@ destinations = ['Prague', 'London', 'Sydney', 'Belfast',
 def contains(city, destinations):
     for location in destinations:
         if location == city:
-            result = True
-            break
-        else:
-            result = False
-    print(result)
+            return True
+
+        return False
+    
 
 contains('Barcelona', destinations)  # True
 contains('Nashville', destinations)  # False

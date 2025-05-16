@@ -9,4 +9,4 @@ def my_function():
 my_function()
 
 # My solution
-# It will print 1, because it is reading the value of the global variable a. It is then initializing the new local variable a.
+It will raise an error. The Python interpreter scans the whole function when it is defined and recognizes that a is being assigned a value (i.e., being initialized) and creates a new local variable. When the function is called, and the interpreter had already noted the local variable when it read the definition, so it expects the local variable to be initialized before it is accessed.

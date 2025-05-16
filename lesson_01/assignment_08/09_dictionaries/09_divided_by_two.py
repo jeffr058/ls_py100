@@ -7,9 +7,8 @@ numbers = {
 }
 
 half_numbers = []
-for key in numbers:
-    half = numbers[key] // 2
-    half_numbers.append(half)
+for value in numbers.values():
+    half_numbers.append(value // 2)
 
 print(half_numbers)
 

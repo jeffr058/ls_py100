@@ -9,4 +9,4 @@ def my_function():
 my_function()
 
 # My solution
-It will print 15 because it takes the variable value from the global scope and creates a new local variable with that value.
+It will raise an error because it is trying to assign to a variable in a function, causing Python to treat it as a local variable that needs to be initialized with a value, and the value of x from the global variable is not accessible inside the function.

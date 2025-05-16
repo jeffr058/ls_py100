@@ -9,4 +9,4 @@ my_function()
 print(b)
 
 # My solution
-My guess is that the attempt to access the global variable b inside the function to reassign its list object follows the local variable rule and calling the function will raise an error while printing b will output the original, unaffected, list.
+It will print [10, 2, 3] because the global variable is being accessed in the function to mutate its value, not to attempt to reassign the variable.
